@@ -12,7 +12,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 KEY, LIMIT = range(2)
 
 # --- AYARLAR ---
-TOKEN = "8775915260:AAFi3tOmnGeMKxjFWgQhcNmUGAR_KN6XrEk"
+TOKEN = "8613187790:AAEqE8FVwIJgHF056TrxnWES-VJQLcSjv80"
 API_URL = "https://venomkey.com/connect"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
