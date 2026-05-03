@@ -1,10 +1,11 @@
 name: Telegram Bot 7/24
+
 on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 */6 * * *' # Her 6 saatte bir botu otomatik yeniden başlatır
-  workflow_dispatch: # Manuel başlatma butonu ekler
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -24,4 +25,3 @@ jobs:
 
       - name: Botu Calistir
         run: python main.py
-        
